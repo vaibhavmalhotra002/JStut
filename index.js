@@ -2,4 +2,6 @@ console.log('Hello Javascript');
 let name ='Vaibhav';
 console.log(name);
 
-let interestRate=0.3;
+const interestRate=0.3;
+interestRate=1;
+console.log(interestRate);
