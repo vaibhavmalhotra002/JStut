@@ -9,7 +9,7 @@ console.log(interestRate);
 //obj
 let person ={
    name :'Vaibhav',
-   age : 20
+   age : 20  
 };
 //dot notation
 person.name='vaibhavi;'
@@ -17,4 +17,15 @@ person.name='vaibhavi;'
 
 console.log(person);
 
-//
+//Arrays
+let selectedColors=['red','blue'];
+selectedColors[2]='green';
+console.log(selectedColors.length);
+
+//function 
+
+function greet(lastName){
+    console.log('Hello' + lastName );
+}
+
+greet(Malhotra);
