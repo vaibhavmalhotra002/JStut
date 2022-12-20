@@ -24,8 +24,14 @@ console.log(selectedColors.length);
 
 //function 
 
-function greet(lastName){
-    console.log('Hello' + lastName );
+function greet(lastName,firstName){
+    console.log('Hello ' + lastName + ' ' + firstName );
 }
 
-greet(Malhotra);
+greet('Malhotra','Vaibhav');
+greet('Sharma' , 'Rohit');
+
+function square(number){
+    return number * number;
+}
+console.log(square(2));
